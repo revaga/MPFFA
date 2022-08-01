@@ -6,13 +6,3 @@
 body {
   background: #f1f1f1;
 }
-.loader {
-  border: 10px solid #222;
-  width: 80px;
-  height: 80px;
-/* i am stoping the animation for now */
-@keyframes spin {
-  to {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
